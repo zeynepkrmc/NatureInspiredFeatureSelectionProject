@@ -49,27 +49,6 @@ This project is grounded in the following mathematical concepts:
 * Statistical dependency testing (χ² test)
 * The Dream Optimization Algorithm is adapted from a continuous optimization framework to a binary feature selection problem, making it suitable for discrete machine learning applications.  
 
-# Project Structure
-├── src/
-│   ├── config.py
-│   ├── data_loader.py
-│   ├── feature_selection/
-│   │   ├── doa.py
-│   │   ├── relief.py
-│   │   ├── chi_square.py
-│   │   └── information_gain.py
-│   ├── models/
-│   │   ├── knn.py
-│   │   ├── random_forest.py
-│   │   └── gaussian_nb.py
-│   ├── evaluation.py
-│   └── utils.py
-├── train.xlsx
-├── test.xlsx
-├── main.py
-├── requirements.txt
-└── README.md
-
 # Outputs
 * Accuracy
 * F1-score
@@ -94,5 +73,5 @@ This project is grounded in the following mathematical concepts:
 * This project demonstrates how optimization algorithms can be effectively integrated with machine learning classifiers to improve classification performance.
 * Key insights include:
   * The influence of feature selection on classifier accuracy
-  *The differing sensitivity of classifier families to optimization-based feature selection
+  * The differing sensitivity of classifier families to optimization-based feature selection
   * Practical application of mathematical optimization in real machine learning problems
